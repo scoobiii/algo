@@ -2,11 +2,18 @@
 
 ## aula 1
 
-Estrutura de dados e algoritmos utilizando linguagem simples e explicando os conceitos necessários para uma criança entender mesmo não tendo pais como akita, linus, gates job, zuker ...
+Estrutura de dados e algoritmos utilizando linguagem simples e explicando os conceitos necessários para uma criança entender mesmo não tendo pais como akita, linus, gates, jobs, zuker ...
+
+
 Também incorpora conceitos como design patterns, XP e JIT.
 
-duvidas: conceitos novos: pergunte e peça exemplos e quiz a fonte do projet.
+duvidas, conceitos novos: pergunte peça exemplos e quiz a fonte do projeto.
+
+
 testes os exemplos digitando para consolidasr o aprendizado, afinal, mesmo agi, precisa ser programada melhorada.
+
+monte e customize seu agi assistente
+
 
     https://chatgpt.com/share/67431a3f-4b40-8010-a9de-578b3067b815
 
