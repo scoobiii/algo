@@ -4,6 +4,9 @@
 
 Estrutura de dados e algoritmos utilizando linguagem simples e explicando os conceitos necessários para uma criança de 10 anos (complementando conforme necessário). Também incorpora conceitos como design patterns XP e JIT.
 
+duvidas: conceitos novos: pergunte e peça exemplos e quiz . testes os exemplos digitando para consolidasr o aprendizado.
+
+    https://chatgpt.com/share/67431a3f-4b40-8010-a9de-578b3067b815
 
 ---
 
