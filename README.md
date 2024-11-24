@@ -1,10 +1,12 @@
-'# algo
+#projeto algo a +
 
 ## aula 1
 
-Estrutura de dados e algoritmos utilizando linguagem simples e explicando os conceitos necessários para uma criança de 10 anos (complementando conforme necessário). Também incorpora conceitos como design patterns XP e JIT.
+Estrutura de dados e algoritmos utilizando linguagem simples e explicando os conceitos necessários para uma criança entender mesmo não tendo pais como akita, linus, gates job, zuker ...
+Também incorpora conceitos como design patterns, XP e JIT.
 
-duvidas: conceitos novos: pergunte e peça exemplos e quiz . testes os exemplos digitando para consolidasr o aprendizado.
+duvidas: conceitos novos: pergunte e peça exemplos e quiz a fonte do projet.
+testes os exemplos digitando para consolidasr o aprendizado, afinal, mesmo agi, precisa ser programada melhorada.
 
     https://chatgpt.com/share/67431a3f-4b40-8010-a9de-578b3067b815
 
@@ -25,7 +27,8 @@ Plano de Melhoria
 4. Explorar integração com APIs de GPT e ferramentas educacionais.
 
 
-5. Documentar o consumo energético e explicar sua relevância com exemplos práticos.
+5. Documentar o consumo energético e explicar sua relevância com exemplos práticos pois agi e mineração de dados consomem energia como se não houvesse amanhã.
+6. um computador servidor ainda é uma maquina térmica com eficiência energética inferior a uma usina térmica a carvão, biomassa ou nuclear.
 
 
 ---
