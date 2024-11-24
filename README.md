@@ -7,14 +7,14 @@ Estrutura de dados e algoritmos utilizando linguagem simples e explicando os con
 
 Também incorpora conceitos como design patterns, XP, swot e JIT.
 
-duvidas, conceitos novos: pergunte peça exemplos e quiz a fonte do projeto.
+duvidas, conceitos novos: pergunte,  peça exemplos e quiz a fonte do projeto.
 
 
-testes os exemplos digitando para consolidasr o aprendizado, afinal, mesmo agi, precisa ser programada melhorada.
+testes os exemplos digitando para consolidar o aprendizado, afinal, mesmo agi, precisa ser programada melhorada.
 
 monte e customize seu agi assistente
 
-
+    trabalhador do conhecimento === apertador de botão
     https://chatgpt.com/share/67431a3f-4b40-8010-a9de-578b3067b815
 
 
