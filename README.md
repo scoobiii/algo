@@ -5,7 +5,7 @@
 Estrutura de dados e algoritmos utilizando linguagem simples e explicando os conceitos necessários para uma criança entender mesmo não tendo pais como akita, linus, gates, jobs, zuker ...
 
 
-Também incorpora conceitos como design patterns, XP e JIT.
+Também incorpora conceitos como design patterns, XP, swot e JIT.
 
 duvidas, conceitos novos: pergunte peça exemplos e quiz a fonte do projeto.
 
@@ -31,7 +31,7 @@ Plano de Melhoria
 3. Incluir quizzes interativos para reforçar o aprendizado.
 
 
-4. Explorar integração com APIs de GPT e ferramentas educacionais.
+4. Explorar integração com APIs de machine deep e ia learning como ferramentas educacionais seu entendimento customização e criar se próprio modelo melhorado.
    
         import { GoogleGenerativeAI } from "@google/generative-ai";
         
