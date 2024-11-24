@@ -1,4 +1,4 @@
-# algo
+'# algo
 
 ## aula 1
 
@@ -7,6 +7,26 @@ Estrutura de dados e algoritmos utilizando linguagem simples e explicando os con
 duvidas: conceitos novos: pergunte e peça exemplos e quiz . testes os exemplos digitando para consolidasr o aprendizado.
 
     https://chatgpt.com/share/67431a3f-4b40-8010-a9de-578b3067b815
+
+
+---
+
+Plano de Melhoria
+
+1. Criar versões simplificadas para cada linguagem com foco educacional (ex.: exemplos visuais).
+
+
+2. Automatizar ao máximo a configuração do ambiente (via Docker ou ambientes online).
+
+
+3. Incluir quizzes interativos para reforçar o aprendizado.
+
+
+4. Explorar integração com APIs de GPT e ferramentas educacionais.
+
+
+5. Documentar o consumo energético e explicar sua relevância com exemplos práticos.
+
 
 ---
 
