@@ -166,18 +166,17 @@ RAMDisk
 
 No Linux, use:
 
-sudo mount -t tmpfs -o size=100M tmpfs /mnt/ramdisk
+    sudo mount -t tmpfs -o size=100M tmpfs /mnt/ramdisk
 
 Torne permanente adicionando no arquivo /etc/fstab:
 
-tmpfs /mnt/ramdisk tmpfs size=100M 0 0
+    tmpfs /mnt/ramdisk tmpfs size=100M 0 0
 
 
 
 2. Crie uma pasta variaveis no RAMDisk:
 
 Mova o código e documentos para /mnt/ramdisk/variaveis.
-
 
 
 3. Execute o código no RAMDisk e compare:
@@ -187,9 +186,6 @@ Tempo de execução.
 Memória usada.
 
 CPU consumida.
-
-
-
 
 
 ---
@@ -217,20 +213,20 @@ Este documento ensina como rodar um código simples em diferentes tecnologias, m
 
 ---
 
-Estrutura do Projeto 📂
-
-📦 algo
-├── 📁 docs          # Documentação do projeto
-├── 📁 src           # Código-fonte principal
-│   ├── script.js    # Código base em JavaScript
-│   ├── script.c     # Código traduzido para C
-│   ├── script.java  # Código traduzido para Java
-│   ├── script.ts    # Código traduzido para TypeScript
-│   ├── script.html  # Código rodando em HTML
-│   └── script.wasm  # Código convertido para WebAssembly
-├── 📁 tests         # Scripts de testes automáticos
-├── 📁 logs          # Logs de execução e status
-└── README.md        # Este arquivo explicativo
+        Estrutura do Projeto 📂
+        
+        📦 algo
+        ├── 📁 docs          # Documentação do projeto
+        ├── 📁 src           # Código-fonte principal
+        │   ├── script.js    # Código base em JavaScript
+        │   ├── script.c     # Código traduzido para C
+        │   ├── script.java  # Código traduzido para Java
+        │   ├── script.ts    # Código traduzido para TypeScript
+        │   ├── script.html  # Código rodando em HTML
+        │   └── script.wasm  # Código convertido para WebAssembly
+        ├── 📁 tests         # Scripts de testes automáticos
+        ├── 📁 logs          # Logs de execução e status
+        └── README.md        # Este arquivo explicativo
 
 
 ---
@@ -240,30 +236,30 @@ Código Base 💻
 Este código mostra como criar variáveis e exibir seus valores no console. Vamos usá-lo como referência para testar em várias linguagens e ambientes.
 
 /**
- * script.js
- * Nome: Script Base
- * Versão: 1.0.0
- * Responsabilidade: Demonstrar criação e exibição de variáveis em JavaScript
- * Autor: scoobiii
- * Product Owner: GPT AGI
- * Stack: Full Stack DevOps
- */
-
-var num = 1;  // Número inicial
-console.log('num : ' + num);
-
-num = 3;  // Alterando o valor
-var price = 1.5;  // Preço decimal
-var Myname = 'Packt';  // Texto
-var trueValue = true;  // Booleano
-var nullVar = null;  // Valor nulo
-var und;  // Indefinido
-
-console.log('num : ' + num);
-console.log('Myname : ' + Myname);
-console.log('trueValue : ' + trueValue);
-console.log('nullVar : ' + nullVar);
-console.log('und : ' + und);
+         * script.js
+         * Nome: Script Base
+         * Versão: 1.0.0
+         * Responsabilidade: Demonstrar criação e exibição de variáveis em JavaScript
+         * Autor: scoobiii
+         * Product Owner: GPT AGI
+         * Stack: Full Stack DevOps
+         */
+        
+        var num = 1;  // Número inicial
+        console.log('num : ' + num);
+        
+        num = 3;  // Alterando o valor
+        var price = 1.5;  // Preço decimal
+        var Myname = 'Packt';  // Texto
+        var trueValue = true;  // Booleano
+        var nullVar = null;  // Valor nulo
+        var und;  // Indefinido
+        
+        console.log('num : ' + num);
+        console.log('Myname : ' + Myname);
+        console.log('trueValue : ' + trueValue);
+        console.log('nullVar : ' + nullVar);
+        console.log('und : ' + und);
 
 
 ---
@@ -340,13 +336,13 @@ Crie um disco virtual na RAM para acelerar os testes.
 
 1. Criar RAMDisk:
 
-sudo mount -t tmpfs -o size=100M tmpfs /mnt/ramdisk
+    sudo mount -t tmpfs -o size=100M tmpfs /mnt/ramdisk
 
 
 2. Mover Código e Logs:
-
-cp -r algo /mnt/ramdisk
-cd /mnt/ramdisk/algo
+        
+        cp -r algo /mnt/ramdisk
+        cd /mnt/ramdisk/algo
 
 
 3. Executar no RAMDisk: Compare tempo e consumo de recursos com a execução tradicional.
@@ -361,26 +357,26 @@ Automatizando Instalação e Testes 🤖
 Script de Instalação
 
 Adicione um script install.sh para instalar dependências e configurar o ambiente:
-
-#!/bin/bash
-
-echo "🔧 Instalando dependências..."
-npm install && echo "Node.js ✅"
-gcc --version && echo "GCC ✅"
-javac -version && echo "Java Compiler ✅"
-echo "📦 Instalação concluída!"
+        
+        #!/bin/bash
+        
+        echo "🔧 Instalando dependências..."
+        npm install && echo "Node.js ✅"
+        gcc --version && echo "GCC ✅"
+        javac -version && echo "Java Compiler ✅"
+        echo "📦 Instalação concluída!"
 
 Automatizar Testes
 
 Crie um script run-tests.sh para rodar testes em todos os ambientes:
-
-#!/bin/bash
-
-echo "🚀 Iniciando testes..."
-node tests/measure-performance.js src/script.js
-gcc src/script.c -o script && ./script
-javac src/script.java && java Script
-echo "✅ Testes concluídos!"
+        
+        #!/bin/bash
+        
+        echo "🚀 Iniciando testes..."
+        node tests/measure-performance.js src/script.js
+        gcc src/script.c -o script && ./script
+        javac src/script.java && java Script
+        echo "✅ Testes concluídos!"
 
 
 ---
@@ -388,9 +384,9 @@ echo "✅ Testes concluídos!"
 Enriqueça com Logs 📋
 
 Cada execução gera logs no diretório logs/. Use este padrão de logging:
-
-[2024-11-24 10:00:00] Node.js - Tempo: 50ms, Memória: 10MB
-[2024-11-24 10:01:00] C - Tempo: 30ms, Memória: 8MB
+    
+    [2024-11-24 10:00:00] Node.js - Tempo: 50ms, Memória: 10MB
+    [2024-11-24 10:01:00] C - Tempo: 30ms, Memória: 8MB
 
 
 ---
@@ -399,17 +395,21 @@ Subir para o GitHub 📤
 
 1. Clone o repositório:
 
-git clone https://github.com/scoobiii/algo.git
+    git clone https://github.com/scoobiii/algo.git
 
 
 2. Adicione os arquivos:
+    
+    git add .
+    git commit -m "Adiciona código e automação"
+    git push origin main
 
-git add .
-git commit -m "Adiciona código e automação"
-git push origin main
 
 
-
+proximos passos: 
+medir consumo de energia
+leed selo devop
+adicionar deep models e mineradores
 
 ---
 
