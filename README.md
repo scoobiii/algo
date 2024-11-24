@@ -1,5 +1,8 @@
 # projeto algo a+
 
+    trabalhador do conhecimento === apertador de botão
+        
+
 ## aula 1
 
 Estrutura de dados e algoritmos utilizando linguagem simples e explicando os conceitos necessários para uma criança entender mesmo não tendo pais como akita, linus, gates, jobs, zuker ...
@@ -14,7 +17,6 @@ testes os exemplos digitando para consolidar o aprendizado, afinal, mesmo agi, p
 
 monte e customize seu agi assistente
 
-    trabalhador do conhecimento === apertador de botão
     https://chatgpt.com/share/67431a3f-4b40-8010-a9de-578b3067b815
 
 
